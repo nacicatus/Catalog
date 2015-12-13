@@ -7,11 +7,33 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Product.h"
 
 @interface DetailViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+@property (strong, nonatomic) IBOutlet UILabel *manufacturerLabel;
+
+@property (strong, nonatomic) IBOutlet UILabel *detailsLabel;
+
+@property (strong, nonatomic) IBOutlet UILabel *priceLabel;
+
+@property (strong, nonatomic) IBOutlet UILabel *quantityLabel;
+
+@property (strong, nonatomic) IBOutlet UILabel *countryLabel;
+
+
+
+
+
+//@property (strong, nonatomic) IBOutlet UILabel* nameLabel;
+//@property (strong, nonatomic) IBOutlet UILabel* manufacturerLabel;
+//@property (strong, nonatomic) IBOutlet UILabel* detailsLabel;
+//@property (strong, nonatomic) IBOutlet UILabel* priceLabel;
+//@property (strong, nonatomic) IBOutlet UILabel* quantityLabel;
+//@property (strong, nonatomic) IBOutlet UILabel* countryLabel;
+
 @property (strong, nonatomic) id detailItem;
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
 
 @end
-

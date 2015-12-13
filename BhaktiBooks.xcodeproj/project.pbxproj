@@ -16,6 +16,19 @@
 		F88DC9081C1DFD6D0072C13D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88DC9061C1DFD6D0072C13D /* LaunchScreen.storyboard */; };
 		F88DC9131C1DFD6D0072C13D /* BhaktiBooksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F88DC9121C1DFD6D0072C13D /* BhaktiBooksTests.m */; };
 		F88DC91E1C1DFD6D0072C13D /* BhaktiBooksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F88DC91D1C1DFD6D0072C13D /* BhaktiBooksUITests.m */; };
+		F88DC92D1C1DFDF80072C13D /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = F88DC92C1C1DFDF80072C13D /* Product.m */; };
+		F88DC9301C1DFE5A0072C13D /* DBAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = F88DC92F1C1DFE5A0072C13D /* DBAccess.m */; };
+		F88DC9331C1DFEA80072C13D /* CatalogProductView.m in Sources */ = {isa = PBXBuildFile; fileRef = F88DC9321C1DFEA80072C13D /* CatalogProductView.m */; };
+		F88DC9361C1DFFA70072C13D /* CatalogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F88DC9351C1DFFA70072C13D /* CatalogTableViewCell.m */; };
+		F88DC93F1C1E00110072C13D /* Hungary.png in Resources */ = {isa = PBXBuildFile; fileRef = F88DC9381C1E00110072C13D /* Hungary.png */; };
+		F88DC9401C1E00110072C13D /* India.png in Resources */ = {isa = PBXBuildFile; fileRef = F88DC9391C1E00110072C13D /* India.png */; };
+		F88DC9411C1E00110072C13D /* mandala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F88DC93A1C1E00110072C13D /* mandala.jpg */; };
+		F88DC9421C1E00110072C13D /* photo-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F88DC93B1C1E00110072C13D /* photo-1.jpg */; };
+		F88DC9431C1E00110072C13D /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F88DC93C1C1E00110072C13D /* photo.jpg */; };
+		F88DC9441C1E00110072C13D /* UK.png in Resources */ = {isa = PBXBuildFile; fileRef = F88DC93D1C1E00110072C13D /* UK.png */; };
+		F88DC9451C1E00110072C13D /* USA.png in Resources */ = {isa = PBXBuildFile; fileRef = F88DC93E1C1E00110072C13D /* USA.png */; };
+		F88DC9481C1E00420072C13D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F88DC9471C1E00420072C13D /* libsqlite3.0.tbd */; };
+		F88DC94A1C1E056F0072C13D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F88DC9491C1E056F0072C13D /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +67,24 @@
 		F88DC9191C1DFD6D0072C13D /* BhaktiBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BhaktiBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88DC91D1C1DFD6D0072C13D /* BhaktiBooksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BhaktiBooksUITests.m; sourceTree = "<group>"; };
 		F88DC91F1C1DFD6D0072C13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88DC92B1C1DFDF80072C13D /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		F88DC92C1C1DFDF80072C13D /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		F88DC92E1C1DFE5A0072C13D /* DBAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBAccess.h; sourceTree = "<group>"; };
+		F88DC92F1C1DFE5A0072C13D /* DBAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBAccess.m; sourceTree = "<group>"; };
+		F88DC9311C1DFEA80072C13D /* CatalogProductView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogProductView.h; sourceTree = "<group>"; };
+		F88DC9321C1DFEA80072C13D /* CatalogProductView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogProductView.m; sourceTree = "<group>"; };
+		F88DC9341C1DFFA70072C13D /* CatalogTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogTableViewCell.h; sourceTree = "<group>"; };
+		F88DC9351C1DFFA70072C13D /* CatalogTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogTableViewCell.m; sourceTree = "<group>"; };
+		F88DC9381C1E00110072C13D /* Hungary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hungary.png; sourceTree = "<group>"; };
+		F88DC9391C1E00110072C13D /* India.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = India.png; sourceTree = "<group>"; };
+		F88DC93A1C1E00110072C13D /* mandala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mandala.jpg; sourceTree = "<group>"; };
+		F88DC93B1C1E00110072C13D /* photo-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1.jpg"; sourceTree = "<group>"; };
+		F88DC93C1C1E00110072C13D /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
+		F88DC93D1C1E00110072C13D /* UK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UK.png; sourceTree = "<group>"; };
+		F88DC93E1C1E00110072C13D /* USA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USA.png; sourceTree = "<group>"; };
+		F88DC9461C1E001E0072C13D /* catalog.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = catalog.db; sourceTree = "<group>"; };
+		F88DC9471C1E00420072C13D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F88DC9491C1E056F0072C13D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88DC94A1C1E056F0072C13D /* libsqlite3.tbd in Frameworks */,
+				F88DC9481C1E00420072C13D /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +137,7 @@
 		F88DC8F41C1DFD6D0072C13D /* BhaktiBooks */ = {
 			isa = PBXGroup;
 			children = (
+				F88DC9371C1DFFF30072C13D /* images */,
 				F88DC8F81C1DFD6D0072C13D /* AppDelegate.h */,
 				F88DC8F91C1DFD6D0072C13D /* AppDelegate.m */,
 				F88DC8FB1C1DFD6D0072C13D /* MasterViewController.h */,
@@ -111,6 +145,15 @@
 				F88DC8FE1C1DFD6D0072C13D /* DetailViewController.h */,
 				F88DC8FF1C1DFD6D0072C13D /* DetailViewController.m */,
 				F88DC9011C1DFD6D0072C13D /* Main.storyboard */,
+				F88DC92E1C1DFE5A0072C13D /* DBAccess.h */,
+				F88DC92F1C1DFE5A0072C13D /* DBAccess.m */,
+				F88DC9341C1DFFA70072C13D /* CatalogTableViewCell.h */,
+				F88DC9351C1DFFA70072C13D /* CatalogTableViewCell.m */,
+				F88DC9461C1E001E0072C13D /* catalog.db */,
+				F88DC9311C1DFEA80072C13D /* CatalogProductView.h */,
+				F88DC9321C1DFEA80072C13D /* CatalogProductView.m */,
+				F88DC92B1C1DFDF80072C13D /* Product.h */,
+				F88DC92C1C1DFDF80072C13D /* Product.m */,
 				F88DC9041C1DFD6D0072C13D /* Assets.xcassets */,
 				F88DC9061C1DFD6D0072C13D /* LaunchScreen.storyboard */,
 				F88DC9091C1DFD6D0072C13D /* Info.plist */,
@@ -122,6 +165,8 @@
 		F88DC8F51C1DFD6D0072C13D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F88DC9491C1E056F0072C13D /* libsqlite3.tbd */,
+				F88DC9471C1E00420072C13D /* libsqlite3.0.tbd */,
 				F88DC8F61C1DFD6D0072C13D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +188,20 @@
 				F88DC91F1C1DFD6D0072C13D /* Info.plist */,
 			);
 			path = BhaktiBooksUITests;
+			sourceTree = "<group>";
+		};
+		F88DC9371C1DFFF30072C13D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F88DC9381C1E00110072C13D /* Hungary.png */,
+				F88DC9391C1E00110072C13D /* India.png */,
+				F88DC93A1C1E00110072C13D /* mandala.jpg */,
+				F88DC93B1C1E00110072C13D /* photo-1.jpg */,
+				F88DC93C1C1E00110072C13D /* photo.jpg */,
+				F88DC93D1C1E00110072C13D /* UK.png */,
+				F88DC93E1C1E00110072C13D /* USA.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,9 +310,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88DC93F1C1E00110072C13D /* Hungary.png in Resources */,
 				F88DC9081C1DFD6D0072C13D /* LaunchScreen.storyboard in Resources */,
+				F88DC9431C1E00110072C13D /* photo.jpg in Resources */,
 				F88DC9051C1DFD6D0072C13D /* Assets.xcassets in Resources */,
+				F88DC9421C1E00110072C13D /* photo-1.jpg in Resources */,
+				F88DC9451C1E00110072C13D /* USA.png in Resources */,
+				F88DC9441C1E00110072C13D /* UK.png in Resources */,
 				F88DC9031C1DFD6D0072C13D /* Main.storyboard in Resources */,
+				F88DC9411C1E00110072C13D /* mandala.jpg in Resources */,
+				F88DC9401C1E00110072C13D /* India.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +345,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F88DC8FA1C1DFD6D0072C13D /* AppDelegate.m in Sources */,
+				F88DC92D1C1DFDF80072C13D /* Product.m in Sources */,
 				F88DC8FD1C1DFD6D0072C13D /* MasterViewController.m in Sources */,
+				F88DC9301C1DFE5A0072C13D /* DBAccess.m in Sources */,
+				F88DC9331C1DFEA80072C13D /* CatalogProductView.m in Sources */,
 				F88DC8F71C1DFD6D0072C13D /* main.m in Sources */,
 				F88DC9001C1DFD6D0072C13D /* DetailViewController.m in Sources */,
+				F88DC9361C1DFFA70072C13D /* CatalogTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BhaktiBooks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saurabhsikka.BhaktiBooks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BhaktiBooks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saurabhsikka.BhaktiBooks;
 				PRODUCT_NAME = "$(TARGET_NAME)";

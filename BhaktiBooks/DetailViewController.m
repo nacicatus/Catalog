@@ -9,38 +9,62 @@
 #import "DetailViewController.h"
 
 @interface DetailViewController ()
-
+- (void)configureView;
 @end
 
 @implementation DetailViewController
 
+
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem {
+- (void)setDetailItem:(id)newDetailItem
+{
     if (_detailItem != newDetailItem) {
         _detailItem = newDetailItem;
-            
+        
         // Update the view.
         [self configureView];
     }
 }
 
-- (void)configureView {
+- (void)configureView
+{
     // Update the user interface for the detail item.
+    
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        Product* theProduct = (Product*) self.detailItem;
+        
+        //  Set the text of the labels to the values passed in the Product object
+        [self.nameLabel setText:theProduct.name];
+        [self.manufacturerLabel setText:theProduct.manufacturer];
+        [self.detailsLabel setText:theProduct.details];
+        [self.priceLabel setText:[NSString stringWithFormat:@"%.2f",theProduct.price]];
+        [self.quantityLabel setText:[NSString stringWithFormat:@"%d", theProduct.quantity]];
+        [self.countryLabel setText:theProduct.countryOfOrigin];
+        
     }
 }
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     [self configureView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        self.title = NSLocalizedString(@"Detail", @"Detail");
+    }
+    return self;
+}
+
 
 @end

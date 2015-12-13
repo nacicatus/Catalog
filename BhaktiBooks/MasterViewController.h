@@ -7,13 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Product.h"
+#import "DBAccess.h"
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : UITableViewController {
+    
+    UISearchBar* searchBar;
+    UISearchDisplayController* searchController;
+    NSArray* filteredProducts;
+}
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
-
+@property (strong, nonatomic) NSMutableArray* products;
+@property (retain, nonatomic) UISearchBar* searchBar;
+@property (nonatomic, retain)  UISearchDisplayController* searchController;
+@property (nonatomic, retain) NSArray* filteredProducts;
 
 @end
 
